@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>Task_1.Editor</OriginalElement>
+  <nodes>
+    <node x="95.5" y="-38.0">typing.Hashable</node>
+    <node x="31.0" y="66.0">object</node>
+    <node x="-70.0" y="797.5">Task_1.ProEditor</node>
+    <node x="101.5" y="677.0">Task_1.Editor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task_1.Editor" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="Task_1.ProEditor" target="Task_1.Editor" relationship="REALIZATION">
+      <point x="70.0" y="-0.0" />
+      <point x="165.0" y="835.5" />
+      <point x="-0.0" y="49.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-280.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.45858343337334934" showDependencies="false" x="0.15837696335074725" y="483.4214659685864" />
+  <SelectedNodes>
+    <node>Task_1.Editor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

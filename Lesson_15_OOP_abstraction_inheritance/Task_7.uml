@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>Task_7.GroundTransport</OriginalElement>
+  <nodes>
+    <node x="40.48560245324403" y="327.42669698897197">abc.ABC</node>
+    <node x="-145.81318368500223" y="599.2187099734227">Task_7.WaterTransport</node>
+    <node x="144.01449217794203" y="526.9249243601106">Task_7.GroundTransport</node>
+    <node x="476.5330274894444" y="599.2187099734227">Task_7.AirTransportation</node>
+    <node x="154.02222045183066" y="-280.43038518664275">typing.Hashable</node>
+    <node x="248.86967590807683" y="-166.08728245000611">object</node>
+    <node x="-110.36390391030692" y="416.4953601731743">Task_7.Transport</node>
+    <node x="-169.40752808311618" y="36.77201546643067">abc.ABCMeta</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task_7.WaterTransport" target="Task_7.Transport" relationship="REALIZATION">
+      <point x="114.50018368500223" y="2.9002657731780346E-4" />
+      <point x="114.0" y="649.219" />
+      <point x="114.0" y="477.495" />
+      <point x="85.99990391030691" y="-3.601731742719494E-4" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="-126.5" y="-281.0" />
+      <point x="32.847455456246166" y="27.0" />
+    </edge>
+    <edge source="abc.ABC" target="abc.ABCMeta" relationship="INSTANCEOF">
+      <point x="0.0" y="-14.5" />
+      <point x="83.3931305363602" y="83.0" />
+    </edge>
+    <edge source="abc.ABC" target="object" relationship="REALIZATION">
+      <point x="43.000000000000014" y="0.0" />
+      <point x="-134.0" y="227.01397943897808" />
+    </edge>
+    <edge source="Task_7.GroundTransport" target="Task_7.Transport" relationship="REALIZATION">
+      <point x="-136.00049217794202" y="7.56398894168342E-5" />
+      <point x="114.0" y="576.925" />
+      <point x="114.0" y="477.495" />
+      <point x="85.99990391030691" y="-3.601731742719494E-4" />
+    </edge>
+    <edge source="Task_7.Transport" target="abc.ABC" relationship="REALIZATION">
+      <point x="78.5" y="-61.0" />
+      <point x="-29.349506363550944" y="14.5" />
+    </edge>
+    <edge source="Task_7.AirTransportation" target="Task_7.Transport" relationship="REALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="582.0330274894444" y="462.495" />
+      <point x="86.0" y="-15.000360173174272" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.527559963099631" showDependencies="false" x="246.69046207650274" y="396.88" />
+  <SelectedNodes>
+    <node>Task_7.WaterTransport</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

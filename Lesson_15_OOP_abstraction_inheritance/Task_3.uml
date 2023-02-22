@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/Admin/PycharmProjects/CBS Courses/Lesson_15_OOP/Task_3.py</OriginalElement>
+  <nodes>
+    <node x="-67.25" y="434.0">Task_3.Mythological_Entity</node>
+    <node x="53.0" y="715.0">Task_3.Human</node>
+    <node x="-34.75" y="-281.0">typing.Hashable</node>
+    <node x="-99.25" y="-177.0">object</node>
+    <node x="-77.17592592592592" y="585.0">Task_3.God</node>
+    <node x="-74.17592592592592" y="843.0">Task_3.Achilles</node>
+    <node x="103.32407407407408" y="843.0">Task_3.Jesus</node>
+    <node x="-134.0" y="715.0">Task_3.Olympic_God</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task_3.Achilles" target="Task_3.Olympic_God" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-10.175925925925924" y="812.0" />
+      <point x="-50.5" y="812.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Task_3.Olympic_God" target="Task_3.God" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="-50.5" y="693.0" />
+      <point x="-10.175925925925924" y="693.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Task_3.Jesus" target="Task_3.God" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="160.32407407407408" y="822.0" />
+      <point x="229.25" y="822.0" />
+      <point x="229.25" y="693.0" />
+      <point x="-10.175925925925924" y="693.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-280.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Task_3.Jesus" target="Task_3.Human" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="160.32407407407408" y="812.0" />
+      <point x="120.0" y="812.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Task_3.Human" target="Task_3.Mythological_Entity" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="120.0" y="683.0" />
+      <point x="160.32407407407408" y="683.0" />
+      <point x="160.32407407407408" y="559.0" />
+      <point x="34.75" y="559.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="Task_3.Mythological_Entity" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="280.5" />
+    </edge>
+    <edge source="Task_3.Achilles" target="Task_3.Human" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="-10.175925925925924" y="822.0" />
+      <point x="120.0" y="822.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="Task_3.God" target="Task_3.Mythological_Entity" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="-10.175925925925924" y="559.0" />
+      <point x="34.75" y="559.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6703881469115192" showDependencies="false" x="127.29175097276266" y="614.36" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
