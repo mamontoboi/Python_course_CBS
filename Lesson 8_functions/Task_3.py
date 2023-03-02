@@ -55,11 +55,12 @@ def sinus():
     return round(math.sin(angle_rad), 4)
 
 
-def cosinus():
+def cosine():
     angle_rad = (data_for_one())*math.pi/180
     return round(math.cos(angle_rad), 4)
 
-def pow():
+
+def power():
     a, b = data_for_two()
     return a ** b
 
@@ -96,14 +97,14 @@ Or write "stop" to end the programme.
             print(sinus())
             continue
         case 'cos':
-            print(cosinus())
+            print(cosine())
             continue
         case 'sqr_root':
             print(sqr_root())
         case 'cube_root':
             print(cube_root())
         case 'pow':
-            print(pow())
+            print(power())
         case "stop":
             break
         case _:

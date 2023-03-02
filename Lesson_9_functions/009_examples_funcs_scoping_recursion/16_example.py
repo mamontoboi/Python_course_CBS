@@ -3,7 +3,7 @@ def alphabet_position(text):
     out = ""
     for symbol in text.lower():
         out += str((alphabet.find(symbol) + 1)) + " "
-    return ''.join(out)
+    return out
 
 
 t = "YGwsaCLmUADyidytxiaUpUguwVBNpKPMSTInHRELscPJUIvsQncDVGAtgHRPfOIfpZDoHuOkiQoLloWcFxuSITxwUJlEPFNsknPp"
