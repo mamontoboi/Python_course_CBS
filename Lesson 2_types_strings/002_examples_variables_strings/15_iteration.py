@@ -23,4 +23,5 @@ print('Max element in string:', max(string))  # u. u has the biggest ASCII value
 
 string2 = string.find("a")
 print(string.find("a"))  # 22. First use of a in string
+print(string.count("a"))   # 2. Two "a" in a string
 print('New string is:', ((string + str(string2) + " ") * 3))

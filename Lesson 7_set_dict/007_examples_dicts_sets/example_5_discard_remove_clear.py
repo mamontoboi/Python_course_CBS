@@ -1,4 +1,9 @@
 # Різниця між discard() та remove()
+# set.remove() removes the specified element from the set and raises a KeyError
+# if the element is not present in the set.
+
+# set.discard() also removes the specified element from the set, but does not raise an error
+# if the element is not present in the set.
 
 # Створення множини
 my_set = {1, 3, 4, 5, 6}
