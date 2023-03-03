@@ -29,7 +29,7 @@ print(GetAttribute1.__dict__)  # {'..., 'my_attr1': 1, ...}. 2 and 4 are not in 
 print('-' * 50)
 
 
-class GetAttribute2(object):
+class GetAttribute2:
     my_attr1 = 1
 
     def __init__(self):

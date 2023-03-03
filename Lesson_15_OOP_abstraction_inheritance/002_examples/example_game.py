@@ -16,8 +16,8 @@ class Hero(ABC):
         print('Рівень здоров\'я:', self.health)
         print('Клас броні:', self.armor, '\n')
 
-    # @abstractmethod
-    def damage(value):
+    @staticmethod
+    def damage(value, enemy):
         enemy.armor -= value
         if enemy.armor < 0:
             enemy.health += enemy.armor
@@ -32,7 +32,7 @@ class Warrior(Hero):
     def attack(self, enemy):
         print('-> УДАР! Хоробрий воїн', self.name, 'атакує', enemy.name, 'мечем!')
         # сила удару для класу Воїн
-        Warrior.damage(15)
+        Warrior.damage(15, enemy)
         print('Страшний удар обрушився на супротивника.\nТепер його броня: ' + str(enemy.armor) +
               ', а рівень здоров\'я: ' + str(enemy.health) + '\n')
         sleep(5)
@@ -47,7 +47,7 @@ class Magician(Hero):
     def attack(self, enemy):
         print('-> УДАР! Спритний маг', self.name, 'накладає заклинання на', enemy.name)
         # сила удару для класу Маг
-        Magician.damage(35)
+        Magician.damage(35, enemy)
         print('Складне заклинання приголомшило супротивника.\nТепер його броня: ' + str(enemy.armor) +
               ', а рівень здоров\'я: ' + str(enemy.health) + '\n')
         sleep(5)
