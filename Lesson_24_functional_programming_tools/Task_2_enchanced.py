@@ -19,7 +19,7 @@ print(lst)
 new_lst = list(new_gen(30))
 print(new_lst)
 
-print(list(map(lambda x: x ** 2, (list(filter(lambda x: x % 2 == 0, lst))))))
+print(list(map(lambda x: x ** 2, (filter(lambda x: x % 2 == 0, lst)))))
 
 # list comprehensions
 new_lst2 = []

@@ -55,5 +55,5 @@ def div(x, y):
     return x / y
 
 
-print(div(3, 2))
+# print(div(3, 2))
 print(type(div(3, 2)))

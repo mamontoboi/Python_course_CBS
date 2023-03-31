@@ -1,6 +1,7 @@
 import socket
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+# sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # 255.255.255.255
 sock.bind(('127.0.0.1', 8888))
 # вказуємо чергу у 5 з'єднань, кількість клієнтів, які зможуть підключитися до сервера одночасно.

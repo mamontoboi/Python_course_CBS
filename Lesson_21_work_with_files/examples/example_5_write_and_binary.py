@@ -5,9 +5,9 @@ with open("test.txt", 'w', encoding='utf-8') as f:
 
 
 # Open file for reading in Binary mode
-with open(r'/various_examples/some.txt', "r+b") as fp:
+with open(r'some.txt', "r+b") as fp:
     # Move the file handle to the 5th character from the beginning of the file
-    fp.seek(3)
+    fp.seek(5)
     # read 5 bytes and convert it to string
     print(fp.read(5).decode("utf-8"))
 
